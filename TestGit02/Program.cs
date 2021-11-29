@@ -10,6 +10,10 @@ namespace TestGit02
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world!");
+            DBConnection connector = new DBConnection();
+
+            Console.Read();
         }
     }
 }
