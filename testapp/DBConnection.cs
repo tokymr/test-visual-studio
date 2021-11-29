@@ -2,14 +2,16 @@ namespace testapp
 {
     public class DBConnection : IDBConnection
     {
-        public DBConnection()
+        private readonly IConnector _connection;
+        public DBConnection(IConnector connection)
         {
-            System.Console.WriteLine("Old school class");
+            _connection = connection;
+            System.Console.WriteLine("DI class");
         }
 
         public void Connection()
         {
-            System.Console.WriteLine("Connection using credentials");
+            _connection.TryConnection();
         }
 
         public void GetLogs()
