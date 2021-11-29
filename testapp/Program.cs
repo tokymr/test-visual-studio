@@ -7,7 +7,9 @@ namespace testapp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            DBConnection connector = new DBConnection();
+            IDBConnection connector = new DBConnection();
+            connector.Connection();
+
         }
     }
 }

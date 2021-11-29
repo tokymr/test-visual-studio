@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Toky\\Formation_Git\\test-visual-studio\\testapp\\testapp.csproj": {}
+    "K:\\Toky\\Formation_Git\\check_repo\\test-visual-studio\\testapp\\testapp.csproj": {}
   },
   "projects": {
-    "K:\\Toky\\Formation_Git\\test-visual-studio\\testapp\\testapp.csproj": {
+    "K:\\Toky\\Formation_Git\\check_repo\\test-visual-studio\\testapp\\testapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Toky\\Formation_Git\\test-visual-studio\\testapp\\testapp.csproj",
+        "projectUniqueName": "K:\\Toky\\Formation_Git\\check_repo\\test-visual-studio\\testapp\\testapp.csproj",
         "projectName": "testapp",
-        "projectPath": "K:\\Toky\\Formation_Git\\test-visual-studio\\testapp\\testapp.csproj",
+        "projectPath": "K:\\Toky\\Formation_Git\\check_repo\\test-visual-studio\\testapp\\testapp.csproj",
         "packagesPath": "C:\\Users\\Toky\\.nuget\\packages\\",
-        "outputPath": "K:\\Toky\\Formation_Git\\test-visual-studio\\testapp\\obj\\",
+        "outputPath": "K:\\Toky\\Formation_Git\\check_repo\\test-visual-studio\\testapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Toky\\AppData\\Roaming\\NuGet\\NuGet.Config"
