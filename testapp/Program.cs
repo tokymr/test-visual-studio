@@ -7,8 +7,9 @@ namespace testapp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            IDBConnection connector = new DBConnection();
-            connector.Connection();
+            IConnector connector = new CasualConnector(){User="user", Pass="password123", Port=1234, Host="localhost"};
+            IDBConnection conn = new DBConnection(connector);
+            conn.Connection();
 
         }
     }
